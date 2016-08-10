@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+body { margin:0px; font-family:Trebuchet MS, Helvetica, sans-serif;  }
+
+.wrapper { max-width:80em; max-height:80em; margin:0 auto; background-color:#97A9D3l; color:background; }
+
+/* header */
+
+.top { float:left; width:80em; margin-bottom:0.5em;}
+
+.banner { background-color:background; height:1.5em; }
+.banner .logo { margin:0.2em 0.3em 0.2em 0.2em ;float:left; font-size:0.8em; padding-left:5px}
+.banner .logo a { color:whitesmoke ;text-decoration: none;} 
+.banner .logo a:hover { text-decoration:underline }
+.banner .icon { float:left; margin:1em 0.5em 0.2em 0em }
+
+.menu ul { float:left; width:77.5em; margin-top:-0.1em; background-color:#FFF } 
+.menu ul li { float:left; display:block; list-style:none; width:11.42em; height:2em; line-height:2em; text-align:center;  border-bottom:1px solid background }
+.menu ul li a { text-decoration:none; color:background; }
+.menu ul li:hover a { display:block; color:#fff; background-color:background  }
+	
+.form { line-height:2em; text-align:center; color:#333 }
+
+/* footer */
+
+footer ul li { float:left; list-style:none; display:block; width:12em; text-align:center; line-height:1.5em; margin-left:2em;height:1.4em; padding-bottom:5px }
+footer ul li a { text-decoration:none; color:#FFF; } 
+footer ul li a:hover { text-decoration:underline; font-size:1em;  } 
+.contact { color:background; text-align:center; float:left; background-color:#E5E5E5; width:80em; line-height:1.2em; font-size:0.8 } 
+h2 { color:background; font-weight:bold; margin:0.3em }
+h4 { margin:0.5em; color:background }
+
+/* content */
+
+.content-right { float:right; margin-top:-1em }
+.content-right ul li { list-style:none; display:block; background-color:#E5E5E5; width:12em; height:2.5em; line-height:2.5em; padding-left:0.5em; border-top:1px #FFF solid;}
+.content-right ul li a { text-decoration:none; color:background;  }
+
+.content-right ul li:hover a { color:#00C; text-decoration: underline; }
+
+.first { background-color:background;color:#fff; margin-left:-0.5em; padding-left:0.5em; font-size:0.9em; font-weight:bolder }
+
+
+/* content product */
+.content-left { float:left; margin-top:0; width:21.2em; width:65em; margin-bottom:5em }
+
+.product { color: background; float:left; margin-right:0.3em; margin-bottom:0.5em }
+
+.product-detail { background-color:#E5E5E5; height:5.5em; text-align:center; color:#FFF; font-weight:bold; position:relative; font-size:0.9em  }
+
+.product-buy { height:2.5em; width:11em; background:background; position:absolute; font-size:0.75em; line-height:2.5em; top:
+45px; left:222px; color:#FFF }
+
+.product-buy a { color:#FFF; }
+
+.product-buy:hover { cursor:pointer; text-decoration: underline }
+
+
+.product-info { height:2.5em; width:6em; background:background; position:absolute; font-size:0.75em; line-height:2.5em; top:45px; left:0px; }
+
+.product-info a { color:#FFF; text-decoration:none }
+
+.product-info:hover { text-decoration: underline }
+
+
+.p1 { float:left; margin-left:0.3em; font-size:0.9em; color: background }
+.p2 { float:right; margin-right:0.3em; font-size:1.1em; color: background }
+
+
+/* datagridview */
+
+.dataview { float:right; margin-right:16em }
+.dataview ul  { list-style:none }
+.dataview ul li  { float:left; background-color:background; width:10em; display:block; height:2em; text-align:center; line-height:2em	 }
+.dataview ul li a{ color:#FFF; text-decoration:none; }
+.dataview ul li a:hover { display:block; font-size:0.9em }
+
+/* datalistview */
+
+table { color:#333; border:background solid 1px; text-align:center }
+table th { width:16em; border-bottom:background solid 1px; }
+table td { border-bottom:background solid 1px; }
+
+
+/* detail */
+
+.detailbox { float:left; width:80em; height:30em ; margin-top:1em; margin-bottom: 2em; border:background solid 2px }
+.detail_img { float:left; margin:0.3em; border:background solid 2px; }
+.detail_content { margin:0.3em; }
+
+/* cart */
+
+.cart { color:#0B2872 }
+.cart_btn { color:#fff; text-decoration:none; cursor:pointer; background-color:background; padding:2px; border:1px solid background }
+
+/* Admincp */
+
+.admin_main { margin: auto; margin-top:1em ; background:#FFF; padding: 1em; width: 40em; }
+.admin { width: 42em; height: 18em; margin:auto; background-color:background; float: left; padding: 1em; }
+.hr { height: 2px; background-color: #fff; border:none }
+.button a { border:solid 1px background; text-decoration: none; color:whitesmoke; background-color:background; padding: 0.1em; float: left; margin:0.5em}

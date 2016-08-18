@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.0">
+    <name>Tag Meta</name>
+    <author>selfget.com</author>
+    <creationDate>February 2015</creationDate>
+    <copyright>Copyright (C) 2009 - 2015 selfget.com</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>info@selfget.com</authorEmail>
+    <authorUrl>http://www.selfget.com</authorUrl>
+    <packagename>tagmeta</packagename>
+    <version>1.7.6</version>
+    <url>http://www.selfget.com</url>
+    <packager>selfget.com</packager>
+    <packagerurl>http://www.selfget.com</packagerurl>
+    <description>Tag Meta package</description>
+    <update>http://www.selfget.com/tagmeta/update</update>
+    <files>
+        <file type="component" id="com_tagmeta">com_tagmeta.zip</file>
+        <file type="plugin" id="tagmeta" group="system">plg_sys_tagmeta.zip</file>
+    </files>
+</extension>

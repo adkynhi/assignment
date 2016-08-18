@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension client="site" method="upgrade" type="module" version="2.5.0">
+	<name>JB Maps</name>
+	<author>Joomla Bamboo</author>
+	<creationDate>September 10, 2013</creationDate>
+	<copyright>Copyright (c) 2013 Joomla Bamboo. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>design@joomlabamboo.com</authorEmail>
+	<authorUrl>www.joomlabamboo.com</authorUrl>
+	<version>1.2.5</version>
+	<description>This module will display upto 3 markers on a google map on your Joomla site.</description>
+	<files>
+		<filename module="mod_jbmaps">mod_jbmaps.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field default="400" description="Height" label="Height of Map" name="height" type="text"/>
+				<field default="400" description="Longitude" label="Width of Map" name="width" type="text"/>
+				<field default="5" description="The level of Zoom on Page load" label="Zoom level" name="zoom" type="list">
+					<option value="0">0</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+				</field>
+				<field default="" description="Latitude" label="Starting Latitude" name="lat" type="text"/>
+				<field default="" description="Longitude" label="Starting Longitude" name="long" type="text"/>
+				<field default="" description="" label="" name="@spacer" type="spacer"/>
+				<field default="ROADMAP" description="Choose the default map type to be displayed. Road Map, Satellite, Hybrid or Terrain" label="Map Type" name="mapType" type="list">
+					<option value="ROADMAP">Road Map</option>
+					<option value="SATELLITE">Satellite</option>
+					<option value="HYBRID">Hybrid</option>
+					<option value="TERRAIN">Terrain</option>
+				</field>
+				<field default="" description="" label="" name="@spacer" type="spacer"/>
+				<field default="no" description="Line break after name field" label="Publish this marker" name="pub1" type="list">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field default="" description="Marker 1 Latitude" label="Marker 1 Latitude" name="lat1" type="text"/>
+				<field default="" description="Marker 1 Longitude" label="Marker 1 Longitude" name="long1" type="text"/>
+				<field default="" description="Enter plain text or html here for a title on the marker." label="Title for first marker" name="title1" type="text"/>
+				<field cols="30" default="" description="Enter plain text or html here for a description on the marker." filter="raw" label="Description for first marker" name="html1" rows="5" type="textarea"/>
+				<field default="" description="" label="" name="@spacer" type="spacer"/>
+				<field default="no" description="Line break after name field" label="Publish this marker" name="pub2" type="list">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field default="" description="Marker 2 Latitude" label="Marker 2 Latitude" name="lat2" type="text"/>
+				<field default="" description="Marker 2 Longitude" label="Marker 2 Longitude" name="long2" type="text"/>
+				<field default="" description="Enter plain text or html here for a title on the marker." label="Title for second marker" name="title2" type="text"/>
+				<field cols="30" default="" description="Enter plain text or html here for a description on the marker." filter="raw" label="Description for second marker" name="html2" rows="5" type="textarea"/>
+				<field default="" description="" label="" name="@spacer" type="spacer"/>
+				<field default="no" description="Line break after name field" label="Publish this marker" name="pub3" type="list">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field default="" description="Marker 3 Latitude" label="Marker 3 Latitude" name="lat3" type="text"/>
+				<field default="" description="Marker 3 Longitude" label="Marker 3 Longitude" name="long3" type="text"/>
+				<field default="" description="Enter plain text or html here for a title on the marker." label="Title for third marker" name="title3" type="text"/>
+				<field cols="30" default="" description="Enter plain text or html here for a description on the marker." filter="raw" label="Description for third marker" name="html3" rows="5" type="textarea"/>
+				<field default="" description="" label="" name="@spacer" type="spacer"/>
+				<field default="" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" label="Module Class Suffix" name="moduleclass_sfx" type="text"/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

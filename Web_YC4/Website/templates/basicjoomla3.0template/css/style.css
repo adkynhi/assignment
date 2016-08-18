@@ -1,0 +1,72 @@
+body {
+	margin:0px;
+}
+
+.mostread,
+.weblinks,
+.category-module,
+.syndicate-module,
+ul.nav.menu,
+#login-form {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	background:#eee;
+	border:1px solid #ccc;
+	padding:5px;
+	margin:0px 0px 10px 0px;
+}
+
+
+.mostread,
+.weblinks,
+.category-module {
+	padding:0px 0px 0px 20px;
+}
+
+.syndicate-module {
+	display:block;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+
+.wrapper { width:1220px; background-color:#2E0033; margin:auto; }
+
+.container { height:2200px; box-shadow:0px -1px 20px #FFFFFF; }
+
+.contact { margin-top:25% }
+
+.h70 { height:70px; background-color:#602B61; }
+
+.h450 { height:450px; background-color:#FFF; }
+
+
+.nav { margin-top:15px;  background-image:url(../images/25326.png) !important;}
+.nav li:hover a{ text-shadow:none; background-color:#906 }
+.nav a { color:#FFF; text-shadow:2px 2px #333333 }
+
+
+.content { height:1300px; background-color:#FFF; padding:15px; width:1170px; margin:-15px }
+
+.content .nav { width:150px !important }
+.content .nav>li>a { padding-top:15px !important; background-image:url(../images/25326.png) !important; border-bottom:#FFFFFF 10px solid}
+.moduletable { border:none }
+
+.footer { width:983px; height:312px; margin-left:24px; float:left; color:#FFF; font-size:15px; position:relative; background-color: }
+.footer-title { font-size:20px; color:#FFF; font-weight:bold }
+.footer-hr { width:160px; border:1px red solid; margin-top:-10px }
+.footer-box { float:left; width:160px; margin:30px 0 0 65px }
+.footer-icon { position:absolute; left:800px; top:230px }
+
+.hikashop_product_name a { color:#FFF }
+.hikashop_product_stock a { color:#FFF }
+.hikashop_container .thumbnail {  background-color: #5E2C5F; color:#FFF }
+.hikashop_container { float:left; margin:5px !important; }
+.hikashop_subcontainer thumbnail { background-color:#939  }
+.hikashop_product_image { margin-bottom:25px; margin-top:-5px }
+.hikashop_product_price_full { list-style: none !important;  }
